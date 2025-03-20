@@ -8,5 +8,9 @@ module "minio" {
       name = "reposilite"
       acl = "private"
     }
+    "harbor" = {
+      name = "harbor"
+      acl = "private"
+    }
   }
 }
