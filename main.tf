@@ -12,6 +12,10 @@ module "minio" {
       name = "reposilite-onelitefeather-snapshots"
       acl = "private"
     }
+    "loki" = {
+      name = "loki"
+      acl = "private"
+    }
     "harbor" = {
       name = "harbor"
       acl = "private"
