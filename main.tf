@@ -4,6 +4,14 @@ module "minio" {
   minio = var.minio
 
   buckets = {
+    "reposilite-spieleoase-releases" = {
+      name = "reposilite-spieleoase-releases"
+      acl = "private"
+    }
+    "reposilite-spieleoase-snapshots" = {
+      name = "reposilite-spieleoase-snapshots"
+      acl = "private"
+    }
     "reposilite-onelitefeather-releases" = {
       name = "reposilite-onelitefeather-releases"
       acl = "private"
