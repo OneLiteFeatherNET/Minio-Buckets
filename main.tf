@@ -28,5 +28,9 @@ module "minio" {
       name = "harbor"
       acl = "private"
     }
+    "outline" = {
+      name = "outline"
+      acl = "private"
+    }
   }
 }
