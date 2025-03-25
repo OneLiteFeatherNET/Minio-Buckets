@@ -20,8 +20,16 @@ module "minio" {
       name = "reposilite-onelitefeather-snapshots"
       acl = "private"
     }
-    "loki" = {
-      name = "loki"
+    "loki-chunk" = {
+      name = "loki-chunk"
+      acl = "private"
+    }
+    "loki-ruler" = {
+      name = "loki-ruler"
+      acl = "private"
+    }
+    "loki-admin" = {
+      name = "loki-admin"
       acl = "private"
     }
     "harbor" = {
