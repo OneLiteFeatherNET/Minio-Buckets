@@ -32,6 +32,10 @@ module "minio" {
       name = "loki-admin"
       acl = "private"
     }
+    "loki" = {
+      name = "loki"
+      acl = "private"
+    }
     "harbor" = {
       name = "harbor"
       acl = "private"
